@@ -1,6 +1,20 @@
 Change Log
 ==========
 
+Version 1.3.8 *(2015-06-17)*
+----------------------------
+
+ * Fix: Correct potential concurrency problem which might have occurred when registering
+   on multiple threads at once.
+
+
+Version 1.3.7 *(2015-05-08)*
+----------------------------
+
+ * Fix: Correct concurrency problem which might have occurred when registering
+   on multiple threads at once.
+
+
 Version 1.3.6 *(2015-01-19)*
 ----------------------------
 

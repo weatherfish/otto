@@ -11,7 +11,15 @@ bus as well as specializing it to the Android platform.
 
 *For usage instructions please see [the website][1].*
 
+Deprecated!
+-----------
 
+This project is deprecated in favor of [RxJava](https://github.com/ReactiveX/RxJava) and
+[RxAndroid](https://github.com/ReactiveX/RxAndroid). These projects permit the same event-driven
+programming model as Otto, but they’re more capable and offer better control of threading.
+
+If you’re looking for guidance on migrating from Otto to Rx, [this post](http://blog.kaush.co/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/)
+is a good start.
 
 Download
 --------
@@ -23,12 +31,12 @@ You can also depend on the .jar through Maven:
 <dependency>
   <groupId>com.squareup</groupId>
   <artifactId>otto</artifactId>
-  <version>1.3.6</version>
+  <version>1.3.8</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.squareup:otto:1.3.6'
+compile 'com.squareup:otto:1.3.8'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
